@@ -1,0 +1,122 @@
+body{
+    font-family: 'Lato', sans-serif;
+    padding: 0px 12%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #CDF0EA;
+    color: rgb(0, 0, 0);
+  }
+
+  .codergirl{
+      width: 30%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .letters{
+      text-align: center;
+      color: #68A1BF;
+      
+      font-size: 25px;
+   
+  }
+  .quote{
+      text-align: center;
+      border: 5px solid #CDF0EA;
+      background-color: #CDF0EA;
+      margin: 200px 300px;
+  }
+  .quote-line{
+      font-style: italic;
+      font-size: 30px;
+  }
+
+  .section-header{
+    text-align: center;
+    color: #68A1BF;
+    font-size: 40px;
+    padding: 50px 0px;
+  }
+  .bio-box{
+      border: 5px solid #CDF0EA;
+      background-color: #CDF0EA;
+      margin: 0px 300px;
+      padding: 20px 0px;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 80%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  .cell-box-left{
+      padding-left:100px;
+      padding-right: 0px;
+  }
+  .cell-box{
+     padding-left:50px ;
+     padding-right: 0px;
+  }
+
+
+  .graph{
+    border:2px solid #68A1BF;
+    background-color: #CDF0EA;
+    border-radius: 20px;
+    height: 25px;
+    margin: 10px;
+  }
+  
+
+  .links{
+    /* display: inline-block; */
+    text-align: center;
+    padding: auto;
+    /* border-radius: 50px; */
+    /* text-align: center; */
+    /* min-height: 30px; */
+
+  }
+  
+    .logo{
+        width: 250px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+  
+    .links li{
+        display: inline-block;
+        padding: 20px 20px;
+    }
